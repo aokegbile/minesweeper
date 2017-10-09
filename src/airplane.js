@@ -1,4 +1,4 @@
-export let
+let
   availableAirplanes= [
     {
       name: 'AeroJet',
@@ -24,20 +24,21 @@ export let
       minSpeed: 200
     }
   ]
-export let flightRequirements = {
+let flightRequirements = {
   requiredStaff: 4,
   requiredSpeedRange:700
 };
-export function meetsSpeedRangeRequirements(maxSpeed,minSpeed,requiredSpeedRange){
+function meetsSpeedRangeRequirements(maxSpeed,minSpeed,requiredSpeedRange){
   const range =maxSpeed-minSpeed;
   if(requiredSpeedRange<range){
     return true;
   }
   return false;
 }
-export const meetsStaffRequirements = (availableStaff,requiredStaff)=>{
+const meetsStaffRequirements = (availableStaff,requiredStaff)=>{
  	if(availableStaff.length >requiredStaff){
     return true;
   }
   return false;
 }
+export{availableAirplanes as aircrafts,flightRequirements as flightReqs, meetsStaffRequirements as meetsStaffReqs, meetsSpeedRangeRequirements as meetsSpeedRangeReqs};
