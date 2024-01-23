@@ -1,0 +1,44 @@
+repo_name: aokegbile/minesweeper
+report_id: df51636d0e5bb6b8e15307735a0799d7
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T17:54:31+00:00'
+requested_by: aokegbile
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aokegbile/minesweeper
+  detection_source: Repo Metadata
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/aokegbile/minesweeper/blob/master/.babelrc
+  detection_source: ".babelrc"
+  last_updated_by: Akin Okegbile
+  last_updated_on: 2017-09-26 06:09:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aokegbile/minesweeper
+  detection_source: Repo Metadata
